@@ -2,8 +2,8 @@ import base64
 from PIL import Image
 
 def main():
-    printText()
     printImg()
+    printText()
 
 def printText():
     text = getTextFromFile("base-64\inputText.txt")
