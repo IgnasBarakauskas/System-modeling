@@ -4,9 +4,25 @@ from PIL import Image
 def main():
     printImg()
     printText()
+    saveAsImage()
+
+def saveAsImage():
+    html=getTextFromFile("base-64/base64.txt")
+    textBase64 = geBase64FromHtml(html)
+    base64_bytes = textBase64.encode('ascii')
+    with open("base-64/decodedAnswer.png", "wb") as fh:
+        fh.write(base64.decodebytes(base64_bytes))
+
+def geBase64FromHtml(html):
+    for line in html:
+        if line.startswith("<img"):
+            startIndex = line.index("base64")+7
+            endOfText = line[startIndex:]
+            endIndex = endOfText.index('"');
+            return endOfText[:endIndex]
 
 def printText():
-    text = getTextFromFile("base-64\inputText.txt")
+    text = getTextFromFile("base-64/inputText.txt")[0]
     text64 = encodeTo64String(text)
     textDecoded = decodeFrom64String(text64)
     print("String encoding to base 64")
@@ -17,7 +33,7 @@ def printText():
     print("____________________________________")
 
 def printImg():
-    img64 = imgToBase64("base-64\image.png")
+    img64 = imgToBase64("base-64/image.png")
     print("Image in base64:\n", img64)
     print("____________________________________")
 
@@ -33,8 +49,8 @@ def decodeFrom64String(text):
 
 def getTextFromFile(path):
     with open(path, "r") as f:
-        line = f.readline()
-    return(line)
+        lines = f.readlines()
+    return(lines)
 
 def imgToBase64(path):
     with open(path, "rb") as img_file:
