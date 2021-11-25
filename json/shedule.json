@@ -1,41 +1,44 @@
 {
-    "classes":[
-        {
-        "name":"salle 300VP provisoire",
-        "amountOfPlaces":"12",
-        "lectures" :[{
-            "name": "Réunion suivi de these",
-            "date":"28/09/2021",
-            "startTime":"11:30",
-            "endTime":"13:00",
-            "status":"Réservée"
-            },
-            {
-            "name": "PhD Meeting",
-            "date":"28/09/2021",
-            "startTime":"14:30",
-            "endTime":"16:00",
-            "status":"Réservée"
-            },
-            {
-            "name": "Réunion SOS Méditerranée",
-            "date":"29/09/2021",
-            "startTime":"15:50",
-            "endTime":"18:50",
-            "status":"Réservée"
-            }
-    ]
-    },
-    {
-        "name":"salle 322",
-        "amountOfPlaces":"12",
-        "lectures" :[{
-            "name": "Réunion thėse Camilo",
-            "date":"28/09/2021",
-            "startTime":"14:00",
-            "endTime":"16:30",
-            "status":"Réservée"
-        }
-        ]
-    }]
+	"classes": [
+		{
+			"name": "salle 300VP provisoire",
+			"amountOfPlaces": "12",
+			"lectures": [
+				{
+					"name": "Réunion suivi de these",
+					"date": "28/09/2021",
+					"startTime": "11:30",
+					"endTime": "13:00",
+					"status": "Réservée"
+				},
+				{
+					"name": "PhD Meeting",
+					"date": "28/09/2021",
+					"startTime": "14:30",
+					"endTime": "16:00",
+					"status": "Réservée"
+				},
+				{
+					"name": "Réunion SOS Méditerranée",
+					"date": "29/09/2021",
+					"startTime": "15:50",
+					"endTime": "18:50",
+					"status": "Réservée"
+				}
+			]
+		},
+		{
+			"name": "salle 322",
+			"amountOfPlaces": "12",
+			"lectures": [
+				{
+					"name": "Réunion thėse Camilo",
+					"date": "28/09/2021",
+					"startTime": "14:00",
+					"endTime": "16:30",
+					"status": "Réservée"
+				}
+			]
+		}
+	]
 }

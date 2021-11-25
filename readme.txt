@@ -1,0 +1,2 @@
+libraries to install:
+	Pillow
