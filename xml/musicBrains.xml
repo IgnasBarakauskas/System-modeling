@@ -1,19 +1,27 @@
 <songs>
-	<song id="A3" extras="(French original)" name="La Vie en rose" rating="0" length="3:02">
-		<artist>Édith Piaf</artist>
-		<lyricists>
-			<lyricist>Édith Piaf</lyricist>
-		</lyricists>
-		<composers>
-			<composer>Louiguy</composer>
-			<composer>Édith Piaf</composer>
-		</composers>
-		<publisher>Éditions Beuscher Arpège</publisher>
-		<publisher extras="(Japan, subsidiary of Nichion)">ピアーミュージック</publisher>
+	<song id="A3" name="La Vie en rose" rating="0" length="3:02">
+		<artists>
+			<artist>Édith Piaf</artist>
+		</artists>
+		<recordingOf text="French original">
+			<lyricists>
+				<lyricist>Édith Piaf</lyricist>
+			</lyricists>
+			<composers>
+				<composer>Louiguy</composer>
+				<composer>Édith Piaf</composer>
+			</composers>
+			<publishers>
+				<publisher>Éditions Beuscher Arpège</publisher>
+				<publisher extras="(Japan, subsidiary of Nichion)">ピアーミュージック</publisher>
+			</publishers>
+		</recordingOf>
 	</song>
 	<song id="A2" name="Hymne à l’amour" rating="0" length="3:23">
-		<artist>Édith Piaf</artist>
-		<recordingOf name="Hymne à l’amour">
+		<artists>
+			<artist>Édith Piaf</artist>
+		</artists>
+		<recordingOf>
 			<lyricists>
 				<lyricist>Édith Piaf</lyricist>
 			</lyricists>
@@ -23,26 +31,207 @@
 		</recordingOf>
 	</song>
 	<song id="A3" name="J’m’en fous pas mal" rating="0" length="4:16">
-		<artist>Édith Piaf</artist>
-		<vocals date="09/10/1946">Édith Piaf</vocals>
+		<artists>
+			<artist>Édith Piaf</artist>
+		</artists>
+		<vocals>
+			<vocal date="09/10/1946">Édith Piaf</vocal>
+		</vocals>
 		<conductor date="09/10/1946">Guy Luypaerts</conductor>
-		<recordingOf name="J’m’en fous pas mal" date="09/10/1946"></recordingOf>
-		<lyricist>
-			<lyricist>Michel Emer</lyricist>
-		</lyricist>
-		<composers>
-			<composer>Michel Emer</composer>
-		</composers>
+		<recordingOf date="09/10/1946">
+			<lyricist>
+				<lyricist>Michel Emer</lyricist>
+			</lyricist>
+			<composers>
+				<composer>Michel Emer</composer>
+			</composers>
+		</recordingOf>
+
 	</song>
 	<song id="A4" name="Johnny, tu n’es pas un ange" rating="0" length="2:09">
-		<artist>Édith Piaf</artist>
+		<artists>
+			<artist>Édith Piaf</artist>
+		</artists>
 		<conductor date="09/10/1946">Guy Luypaerts</conductor>
-		<recordingOf name="J’m’en fous pas mal" date="09/10/1946"></recordingOf>
-		<lyricist>
-			<lyricist>Michel Emer</lyricist>
-		</lyricist>
-		<composers>
-			<composer>Michel Emer</composer>
-		</composers>
+		<recordingOf date="09/10/1946">
+			<lyricists>
+				<lyricist>Michel Emer</lyricist>
+			</lyricists>
+			<composers>
+				<composer>Michel Emer</composer>
+			</composers>
+			<translation>
+				<translator>
+					Francis Lemarque
+				</translator>
+				<translatedFrom>
+					Johnny (Is the Boy for Me)
+				</translatedFrom>
+			</translation>
+		</recordingOf>
+	</song>
+	<song id="A5" name="Bravo pour le clown !" rating="0" length="3:34">
+		<artists>
+			<artist>Édith Piaf</artist>
+		</artists>
+		<recordingOf name="Bravo pour le clown !">
+			<lyricists>
+				<lyricist>Henri Contet</lyricist>
+			</lyricists>
+			<composers>
+				<composer>Louiguy</composer>
+			</composers>
+		</recordingOf>
+	</song>
+	<song id="A6" name="L’Accordéoniste" rating="0" length="3:02">
+		<artists>
+			<artist>Édith Piaf</artist>
+		</artists>
+		<recordingOf>
+			<lyricists>
+				<lyricist>Michel Emer</lyricist>
+			</lyricists>
+			<composers>
+				<composer>Michel Emer</composer>
+			</composers>
+		</recordingOf>
+	</song>
+	<song id="A7" name="L’Homme à la moto" rating="0" length="2:02">
+		<artists>
+			<artist>Édith Piaf</artist>
+		</artists>
+		<vocals>
+			<vocal>Édith Piaf</vocal>
+		</vocals>
+		<recordingOf date="01/01/1956">
+			<lyricists>
+				<lyricist>Jerry Leiber</lyricist>
+				<lyricist>Mike Stoller</lyricist>
+			</lyricists>
+			<composers>
+				<composer>Jerry Leiber</composer>
+				<composer>Mike Stoller</composer>
+			</composers>
+			<translation>
+				<translator>
+					Jean Dréjac
+				</translator>
+				<translatedFrom>
+					Black Denim Trousers and Motorcycle Boots
+				</translatedFrom>
+			</translation>
+		</recordingOf>
+	</song>
+	<song id="B1" name="La Foule" rating="0" length="2:54">
+		<artists>
+			<artist>Édith Piaf</artist>
+		</artists>
+		<recordingOf>
+			<lyricists>
+				<lyricist>Michel Rivgauche</lyricist>
+			</lyricists>
+			<composers>
+				<composer date="01/01/1936">Ángel Cabral</composer>
+			</composers>
+			<publishers>
+				<publisher>Éditions Métropolitaines</publisher>
+			</publishers>
+			<versionOf>Que nadie sepa mi sufrir</versionOf>
+		</recordingOf>
+	</song>
+	<song id="B2" name="Mon manège a moi (Tu me fais tourner la tête)" rating="0" length="2:57">
+		<artists>
+			<artist>Édith Piaf</artist>
+		</artists>
+		<vocals>
+			<vocal>Édith Piaf</vocal>
+		</vocals>
+		<recordingOf text="Tu me fais tourner la tête">
+			<lyricists>
+				<lyricist>Jean Constantin</lyricist>
+			</lyricists>
+			<composers>
+				<composer>Norbert Glanzberg</composer>
+			</composers>
+		</recordingOf>
+	</song>
+	<song id="B3" name="Milord" rating="4" length="4:27">
+		<artists>
+			<artist>Édith Piaf</artist>
+		</artists>
+		<vocals>
+			<vocal date="05/06/1959">Édith Piaf</vocal>
+		</vocals>
+		<conductor date="05/06/1959">Robert Chauvigny</conductor>
+		<recordingOf date="05/06/1959">
+			<lyricists>
+				<lyricist>Georges Moustaki</lyricist>
+			</lyricists>
+			<composers>
+				<composer>Marguerite Monnot</composer>
+			</composers>
+		</recordingOf>
+	</song>
+	<song id="B4" name="Non, je ne regrette rien" rating="5" length="2:23">
+		<artists>
+			<artist>Édith Piaf</artist>
+		</artists>
+		<vocals>
+			<vocal date="10/11/1960">Édith Piaf</vocal>
+		</vocals>
+		<conductor date="10/11/1960">Robert Chauvigny</conductor>
+		<recordingOf date="10/11/1960">
+			<lyricists>
+				<lyricist>Michel Vaucaire</lyricist>
+			</lyricists>
+			<composers>
+				<composer>Charles Dumont</composer>
+			</composers>
+		</recordingOf>
+	</song>
+	<song id="B5" name="Les Mots d’amour" rating="0" length="3:24">
+		<artists>
+			<artist>Édith Piaf</artist>
+		</artists>
+		<recordingOf>
+			<lyricists>
+				<lyricist>Michel Rivgauche</lyricist>
+			</lyricists>
+			<composers>
+				<composer>Charles Dumont</composer>
+			</composers>
+		</recordingOf>
+	</song>
+	<song id="B6" name="Mon Dieu" rating="0" length="3:20">
+		<artists>
+			<artist>Édith Piaf</artist>
+		</artists>
+		<recordingOf>
+			<lyricists>
+				<lyricist>Michel Vaucaire</lyricist>
+			</lyricists>
+			<composers>
+				<composer>Charles Dumont</composer>
+			</composers>
+		</recordingOf>
+	</song>
+	<song id="B7" name="À quoi ça sert l’amour" rating="0" length="2:25">
+		<artists>
+			<artist>Édith Piaf</artist>
+			<artist>Théo Sarapo</artist>
+		</artists>
+		<vocals>
+			<vocal date="03/09/1962">Édith Piaf</vocal>
+			<vocal date="03/09/1962">Théo Sarapo</vocal>
+		</vocals>
+		<conductor date="03/09/1962">Jean Leccia</conductor>
+		<recordingOf date="03/09/1962">
+			<lyricists>
+				<lyricist>Michel Emer</lyricist>
+			</lyricists>
+			<composers>
+				<composer>Michel Emer</composer>
+			</composers>
+		</recordingOf>
 	</song>
 </songs>
