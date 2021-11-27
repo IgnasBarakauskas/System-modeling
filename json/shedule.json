@@ -1,7 +1,8 @@
 {
 	"classes": [
 		{
-			"name": "salle 300VP provisoire",
+			"class": "300VP",
+			"state": "provisoire",
 			"amountOfPlaces": "12",
 			"lectures": [
 				{
@@ -28,7 +29,8 @@
 			]
 		},
 		{
-			"name": "salle 322",
+			"class": "322",
+			"state": "",
 			"amountOfPlaces": "12",
 			"lectures": [
 				{
@@ -41,7 +43,8 @@
 			]
 		},
 		{
-			"name": "salle 418 VP tempoire",
+			"class": "418 VP",
+			"state": "tempoire",
 			"amountOfPlaces": "12",
 			"lectures": [
 				{

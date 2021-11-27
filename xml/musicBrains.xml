@@ -1,0 +1,48 @@
+<songs>
+	<song id="A3" extras="(French original)" name="La Vie en rose" rating="0" length="3:02">
+		<artist>Édith Piaf</artist>
+		<lyricists>
+			<lyricist>Édith Piaf</lyricist>
+		</lyricists>
+		<composers>
+			<composer>Louiguy</composer>
+			<composer>Édith Piaf</composer>
+		</composers>
+		<publisher>Éditions Beuscher Arpège</publisher>
+		<publisher extras="(Japan, subsidiary of Nichion)">ピアーミュージック</publisher>
+	</song>
+	<song id="A2" name="Hymne à l’amour" rating="0" length="3:23">
+		<artist>Édith Piaf</artist>
+		<recordingOf name="Hymne à l’amour">
+			<lyricists>
+				<lyricist>Édith Piaf</lyricist>
+			</lyricists>
+			<composers>
+				<composer>Marguerite Monnot</composer>
+			</composers>
+		</recordingOf>
+	</song>
+	<song id="A3" name="J’m’en fous pas mal" rating="0" length="4:16">
+		<artist>Édith Piaf</artist>
+		<vocals date="09/10/1946">Édith Piaf</vocals>
+		<conductor date="09/10/1946">Guy Luypaerts</conductor>
+		<recordingOf name="J’m’en fous pas mal" date="09/10/1946"></recordingOf>
+		<lyricist>
+			<lyricist>Michel Emer</lyricist>
+		</lyricist>
+		<composers>
+			<composer>Michel Emer</composer>
+		</composers>
+	</song>
+	<song id="A4" name="Johnny, tu n’es pas un ange" rating="0" length="2:09">
+		<artist>Édith Piaf</artist>
+		<conductor date="09/10/1946">Guy Luypaerts</conductor>
+		<recordingOf name="J’m’en fous pas mal" date="09/10/1946"></recordingOf>
+		<lyricist>
+			<lyricist>Michel Emer</lyricist>
+		</lyricist>
+		<composers>
+			<composer>Michel Emer</composer>
+		</composers>
+	</song>
+</songs>
