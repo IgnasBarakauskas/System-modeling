@@ -1,0 +1,29 @@
+<organization>
+	<types>
+		<type>public</type>
+		<type link="https://en.wikipedia.org/wiki/Grands_%C3%A9tablissements">Grand établissement</type>
+		<type link="https://en.wikipedia.org/wiki/%C3%89tablissement_public_%C3%A0_caract%C3%A8re_scientifique,_culturel_et_professionnel">EPSCP</type>
+	</types>
+	<established>1996</established>
+	<chancellor>Philippe Jamet</chancellor>
+	<president>Claude Imauven</president>
+	<administrativeStaff>4450</administrativeStaff>
+	<staff>13400</staff>
+	<postgraduates>1560</postgraduates>
+	<locations>
+		<location link="https://en.wikipedia.org/wiki/Albi">Albi</location>
+		<location link="https://en.wikipedia.org/wiki/Al%C3%A8s">Alès</location>
+		<location link="https://en.wikipedia.org/wiki/Brest,_France">Brest</location>
+		<location link="https://en.wikipedia.org/wiki/Douai">Douai</location>
+		<location link="https://en.wikipedia.org/wiki/%C3%89vry,_Essonne">Evry</location>
+		<location link="https://en.wikipedia.org/wiki/Lille">Lille</location>
+		<location link="https://en.wikipedia.org/wiki/Nancy,_France">Nancy</location>
+		<location link="https://en.wikipedia.org/wiki/Nantes">Nantes</location>
+		<location link="https://en.wikipedia.org/wiki/Paris">Paris</location>
+		<location link="https://en.wikipedia.org/wiki/Saint-%C3%89tienne">Saint-Étienne</location>
+		<location link="https://en.wikipedia.org/wiki/Sophia_Antipolis">Sophia-Antipolis</location>
+		<location link="https://en.wikipedia.org/wiki/France">France</location>
+		<location link="https://geohack.toolforge.org/geohack.php?pagename=Institut_Mines-T%C3%A9l%C3%A9com=48.7128_N_2.2003_E_">48.7128N 2.2003'E</location>
+	</locations>
+	<website>http://www.imt.fr/en/</website>
+</organization>
