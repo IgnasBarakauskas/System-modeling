@@ -1,0 +1,110 @@
+openapi: 3.0.3
+info:
+  title: Smart House API
+  description: Smart Home API created for stuying reasons
+  version: 0.0.1
+servers:
+  - url: http://api.example.org/
+    description: Link required by description of the task.
+paths:
+  /rooms:
+    get:
+      summary: Returns a list of rooms in a smart house.
+      responses:
+        "200":
+          description: A JSON array of room ids and basic information
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Rooms"
+  /rooms/{roomId}/connectedDevices:
+    get:
+      summary: Returns a list of devices of room by id.
+      parameters:
+        - name: roomId
+          in: path
+          required: true
+      responses:
+        "200":
+          description: A JSON array of devices ids and basic information
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Devices"
+  /rooms/{roomId}/connectedDevices/{connectedDevicesID}:
+    get:
+      summary: returns recousce od device by roomId and deviceId.
+      parameters:
+        - name: roomId
+          in: path
+          required: true
+        - name: connectedDevicesID
+          in: path
+          required: true
+      responses:
+        "200":
+          description: A basic information about resources of device
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Resource"
+    put:
+      summary: Updates status of device resource.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Resource"
+      responses:
+        "203":
+          description: Updated
+
+components:
+  schemas:
+    Users:
+      type: array
+      properties:
+        User:
+          type: object
+          properties:
+            id:
+              type: integer
+              format: int32
+            temperature:
+              type: integer
+              format: int32
+            windowStatus:
+              type: boolean
+            co2:
+              type: integer
+              format: int32
+          required:
+            - id
+            - temperature
+            - windowStatus
+    Devices:
+      type: array
+      properties:
+        Device:
+          type: object
+          properties:
+            id:
+              type: integer
+              format: int32
+            type:
+              type: string
+            status:
+              type: string
+          required:
+            - id
+            - type
+            - status
+    Resource:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+        status:
+          type: string
