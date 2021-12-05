@@ -1,0 +1,80 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://example.com/product.schema.json",
+	"title": "Smart home schema",
+	"description": "Data interoperability task json schema for YAML Smart home API",
+	"type": "object",
+	"properties": {
+		"Rooms": {
+			"type": "Array",
+			"Room": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"type": "integer",
+						"description": "Room identifier"
+					},
+					"temperature": {
+						"type": "integer",
+						"description": "Current temperature of room"
+					},
+					"windowStatus": {
+						"type": "boolean",
+						"description": "Window status, true open, false closed"
+					},
+					"co2": {
+						"type": "integer",
+						"description": "Current CO2 level"
+					},
+					"required": [
+						"id",
+						"temperature",
+						"windowStatus"
+					]
+				}
+			}
+		},
+		"Devices": {
+			"type": "array",
+			"Device": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"type": "integer",
+						"description": "Device identifier"
+					},
+					"type": {
+						"type": "string",
+						"description": "Type of device, ex: 'temperatureDevice', 'Windows Manager', ..."
+					},
+					"status": {
+						"type": "string",
+						"description": "Status of device, ex: 'broken', 'working', ..."
+					},
+					"required": [
+						"id",
+						"temperature",
+						"windowStatus"
+					]
+				}
+			}
+		},
+		"Resource": {
+			"type": "Object",
+			"properties": {
+				"id": {
+					"type": "integer",
+					"description": "Identifier of resource"
+				},
+				"status": {
+					"type": "string",
+					"description": "Status of resource"
+				},
+				"required": [
+					"id",
+					"status"
+				]
+			}
+		}
+	}
+}

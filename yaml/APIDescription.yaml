@@ -62,10 +62,10 @@ paths:
 
 components:
   schemas:
-    Users:
+    Rooms:
       type: array
       properties:
-        User:
+        Room:
           type: object
           properties:
             id:
@@ -108,3 +108,6 @@ components:
           format: int32
         status:
           type: string
+        required:
+          - id
+          - status

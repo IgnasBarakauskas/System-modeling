@@ -182,6 +182,20 @@
 					"minimum": 0,
 					"maximum": 1,
 					"description": "Property. Relative illuminance level setting. A number between 0 and 1."
+				},
+				"lightningColor": {
+					"type": "string",
+					"enum": [
+						"Yellow",
+						"Blue",
+						"Red",
+						"Green",
+						"Magenta",
+						"Violet",
+						"Orange",
+						"Purple"
+					],
+					"description": "Task related to data interopability, added values about strretlight color"
 				}
 			}
 		}
