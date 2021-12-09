@@ -1,0 +1,10 @@
+What is the rating value of the movie?				|      Tous publics		|  $.contentRating
+What is the IMDB identifier for Rebecca Ferguson?	|	"/name/nm0272581/"	|  $.actor[?(@.name=="Rebecca Ferguson")].url
+Who rated the film with only 1 star?
+|
+	{
+    "@type": "Person",
+    "name": "wmnac-84309"
+  	}		
+|
+$.reviews[?(@.reviewRating.ratingValue==1)].author
