@@ -46,7 +46,6 @@
 				<composer>Michel Emer</composer>
 			</composers>
 		</recordingOf>
-
 	</song>
 	<song id="A4" name="Johnny, tu n’es pas un ange" rating="0" length="2:09">
 		<artists>
@@ -61,12 +60,8 @@
 				<composer>Michel Emer</composer>
 			</composers>
 			<translation>
-				<translator>
-					Francis Lemarque
-				</translator>
-				<translatedFrom>
-					Johnny (Is the Boy for Me)
-				</translatedFrom>
+				<translator>Francis Lemarque</translator>
+				<translatedFrom>Johnny (Is the Boy for Me)</translatedFrom>
 			</translation>
 		</recordingOf>
 	</song>
@@ -113,12 +108,8 @@
 				<composer>Mike Stoller</composer>
 			</composers>
 			<translation>
-				<translator>
-					Jean Dréjac
-				</translator>
-				<translatedFrom>
-					Black Denim Trousers and Motorcycle Boots
-				</translatedFrom>
+				<translator>Jean Dréjac</translator>
+				<translatedFrom>Black Denim Trousers and Motorcycle Boots</translatedFrom>
 			</translation>
 		</recordingOf>
 	</song>
