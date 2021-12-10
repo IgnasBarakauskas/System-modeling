@@ -2,11 +2,11 @@ import csv
 
 
 def main():
-    data = readCSV("csv/calculate.csv")
+    data = readCSV("csv/program/calculate.csv")
     calculatedData = []
     for row in data:
         calculatedData.append([row[0], row[1], calculateFib(int(row[2]))])
-    writeCSV("csv/answerCalculate.csv", calculatedData)
+    writeCSV("csv/program/answerCalculate.csv", calculatedData)
 
 
 def writeCSV(path, data):

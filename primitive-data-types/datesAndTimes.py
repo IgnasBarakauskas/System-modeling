@@ -1,4 +1,5 @@
 from datetime import datetime
+from dateutil.relativedelta import relativedelta
 import time
 
 
@@ -44,8 +45,8 @@ def addTimeToCurrent(yyyy, mm, dd):
     print("Current time: " + str(currentTime))
     print("Time added: " + str(yyyy) + " year " +
           str(mm) + " month " + str(dd) + " day")
-    print(currentTime.replace(year=currentTime.year +
-          yyyy).replace(month=currentTime.month + mm).replace(day=currentTime.day + dd))
+    futureTime = currentTime + relativedelta(years=yyyy, months=mm, days=dd)
+    print(futureTime)
     print("_"*150)
 
 
